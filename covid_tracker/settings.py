@@ -40,13 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'covid.apps.CovidConfig',
     'rest_framework',
-    'corsheaders',
     'rest_framework.authtoken',
 
-]
-
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
 ]
 
 REST_FRAMEWORK = {
